@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projekt Verwaltung</title>
+    <style>
+          { margin: 5px; font-family: Arial; }
+        .nav { background: #ddd; padding: 10px; }
+        table { border: 1px solid black; width: 100%; }
+        th { background: #4CAF50; color: white; }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="/"> Start</a> | 
+        <a href="/user/add"> Benutzer</a> | 
+        <a href="/projekt/add"> Projekt</a> | 
+        <a href="/prognose/add"> Prognose</a>
+    </div>
+    {% block content %}{% endblock %}
+</body>
+</html>
